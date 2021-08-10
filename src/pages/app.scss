@@ -1,0 +1,22 @@
+.TodayWContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(148, 148, 148, 0.671);
+  background-color: white;
+
+  color: white;
+  background-size: cover;
+  height: 455px;
+}
+
+.TodayWContainer h2 {
+  font-size: 40px;
+}
+
+.TodayWContainer p {
+  display: block;
+  width: 100%;
+  text-align: center;
+}

@@ -22,7 +22,8 @@ a,
 .dropdown-item,
 .btn {
   cursor: pointer;
-  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out;
   font-family: $font-family-base;
 }
 
@@ -58,3 +59,53 @@ ol {
   padding-left: 0;
 }
 
+.TodayWContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  margin-left: 200px;
+
+  background: $widget-bg-color !important;
+  width: 50%;
+  color: white;
+  background-size: cover;
+  height: 455px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.TodayWContainer h2 {
+  font-size: 40px;
+}
+
+.TodayWContainer p {
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+.weekCard {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(148, 148, 148, 0.671);
+  margin: 5px;
+}
+
+.weekCard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 70px;
+}
+
+.weekCard p,
+h4 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.weekCard h4 {
+  margin-top: 15px;
+}
